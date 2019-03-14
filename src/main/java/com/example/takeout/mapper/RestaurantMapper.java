@@ -20,4 +20,6 @@ public interface RestaurantMapper extends MyBatisBaseDao<Restaurant, Integer> {
 
     @Select(value = {"SELECT COUNT(restaurant_id) FROM restaurant"})
     int findRestaurantCount();
+
+    Restaurant selectByPrimaryKey(Integer id);
 }

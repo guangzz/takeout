@@ -186,12 +186,12 @@ public class UserService {
      * @return
      */
     public JSONResult saveOrders(List<Goods> goods,Integer userId,Integer addressId){
-        Map<Integer, Orders> orders = createOrders(goods,userId,addressId);
+        Orders order = createOrders(goods,userId,addressId);
         for (int i = 0;i<goods.size();i++){
             //this
             Goods product = goods.get(i);
-            Integer restaurantId = product.getRestaurantId();
-            Orders order = orders.get(restaurantId);
+//            Integer restaurantId = product.getRestaurantId();
+//            Orders order = orders.get(restaurantId);
 
             Orderdetails details = new Orderdetails();
             details.setGoodsId(product.getGoodsId());
@@ -209,42 +209,45 @@ public class UserService {
      * @param goods
      * @return
      */
-    private Map<Integer,Orders> createOrders(List<Goods> goods,Integer userId,Integer addressId){
-        Set<Integer> restaurantIdmap = new HashSet<>();
-        for (int i = 0;i<goods.size();i++){
-            Integer id = goods.get(i).getRestaurantId();
-            restaurantIdmap.add(id);
-        }
-        Map<Integer,Orders> orders = new HashMap<>();
+    private Orders createOrders(List<Goods> goods,Integer userId,Integer addressId){
+//        Set<Integer> restaurantIdmap = new HashSet<>();
+//        for (int i = 0;i<goods.size();i++){
+//            Integer id = goods.get(i).getRestaurantId();
+//            restaurantIdmap.add(id);
+//        }
+//        Map<Integer,Orders> orders = new HashMap<>();
 
         //创建应该有的订单
-        for (Integer i : restaurantIdmap) {
+//        for (Integer i : restaurantIdmap) {
             Orders order = new Orders();
 
             long l = System.currentTimeMillis();
             Timestamp timestamp = new Timestamp(l);
             order.setCreatetime(timestamp);
 
-            order.setRestaurantId(i);
+            order.setRestaurantId(goods.get(0).getRestaurantId());
             order.setOrderStatus(OrderStatus.UNCONFIRMED.value);
             order.setUserId(userId);
             order.setAddressId(addressId);
             ordersMapper.insertSelective(order);
 
-            orders.put(i,order);
-        }
-        return orders;
+//            orders.put(i,order);
+//        }
+        return order;
     }
 
 
     /**
      * 提交订单,扣除用户金额,修改订单状态
-     * @param order
+     * @param orderId
+     * @param userID
      * @return
      */
-    public JSONResult commitOrder(Orders order,Integer userID) {
+    public JSONResult commitOrder(Integer orderId,Integer userID) {
         User user = userMapper.findUserById(userID);
-        List<Orderdetails> details = orderdetailsMapper.findDetailsByOrderId(order.getOrderId());
+        List<Orderdetails> details = orderdetailsMapper.findDetailsByOrderId(orderId);
+
+        Orders order = ordersMapper.selectByPrimaryKey(orderId);
 
         BigDecimal total = calculateTotal(details);
         BigDecimal balance = user.getBalance();

@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * PaymentdetailsMapper继承基类
@@ -31,4 +32,9 @@ public interface PaymentdetailsMapper extends MyBatisBaseDao<Paymentdetails, Int
 
     @Select(value = {"SELECT SUM(order_money) FROM ",TABLE, " WHERE status!=501 AND user_id=#{userID}"})
     BigDecimal consumption(@Param("userID") Integer userId);
+
+
+    //查询出待结算给餐厅尾款的订单号
+    @Select(value = {"SELECT ", " order_id ", " FROM ", TABLE, " WHERE status=0"})
+    List<Integer> findSettlement();
 }

@@ -74,8 +74,8 @@ public class UserController {
 
     @PostMapping("/commitOrder")
     @ApiOperation(value = "提交订单")
-    public JSONResult commitOrder(@RequestBody Orders order,Integer userID){
-        return userService.commitOrder(order,userID);
+    public JSONResult commitOrder(@RequestBody Integer orderId,Integer userId){
+        return userService.commitOrder(orderId,userId);
     }
 
     @PostMapping("/confirmOrder")
@@ -112,8 +112,8 @@ public class UserController {
 
     @PostMapping("/distance")
     @ApiOperation(value = "根据两个地点的经纬度计算直线距离")
-    public JSONResult distance(@RequestBody MapPoint start,@RequestBody MapPoint end){
-        double distence = MapPoint.getDistence(start, end);
+    public JSONResult distance(List<MapPoint> startAndEnd){
+        double distence = MapPoint.getDistence(startAndEnd.get(0), startAndEnd.get(1));
         return JSONResult.ok(distence);
     }
 }

@@ -81,8 +81,6 @@ public class UserServiceTest {
             goods2.setRestaurantId(2);
             integers.add(goods);
 
-        User user = new User();
-        user.setUserId(2);
 
         userService.saveOrders(integers,2,1);
     }
