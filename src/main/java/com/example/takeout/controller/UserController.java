@@ -74,7 +74,7 @@ public class UserController {
 
     @PostMapping("/commitOrder")
     @ApiOperation(value = "提交订单")
-    public JSONResult commitOrder(@RequestBody Integer orderId,Integer userId){
+    public JSONResult commitOrder(Integer orderId,Integer userId){
         return userService.commitOrder(orderId,userId);
     }
 

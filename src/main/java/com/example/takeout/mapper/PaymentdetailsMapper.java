@@ -3,6 +3,7 @@ package com.example.takeout.mapper;
 import com.example.takeout.entity.Paymentdetails;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
@@ -37,4 +38,8 @@ public interface PaymentdetailsMapper extends MyBatisBaseDao<Paymentdetails, Int
     //查询出待结算给餐厅尾款的订单号
     @Select(value = {"SELECT ", " order_id ", " FROM ", TABLE, " WHERE status=0"})
     List<Integer> findSettlement();
+
+    //给商家结算成功后将结算状态改为已结算(1)
+    @Update(value = {"UPDATE ", TABLE, " SET status=1 WHERE order_id=#{orderId}"})
+    List<Integer> updatePaymentStasus(@Param("orderId") Integer orderId);
 }

@@ -97,7 +97,7 @@ public class UserServiceTest {
         orders.setOrderId(4);
         orders.setOrderDescribe("aabbccdd");
 
-        JSONResult jsonResult = userService.commitOrder(11, 2);
+        JSONResult jsonResult = userService.commitOrder(12, 2);
         System.out.println(JSON.toJSON(jsonResult));
     }
 

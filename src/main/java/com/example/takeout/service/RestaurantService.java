@@ -119,5 +119,13 @@ public class RestaurantService {
         return JSONResult.ok(restaurantPageInfo);
     }
 
+    /**
+     * 根据id查询商家信息
+     * @param id
+     * @return
+     */
+    public JSONResult findRestaurantById(Integer id){
+        return JSONResult.ok(restaurantMapper.selectByPrimaryKey(id));
+    }
 
 }

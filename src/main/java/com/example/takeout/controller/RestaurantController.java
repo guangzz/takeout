@@ -61,4 +61,10 @@ public class RestaurantController {
     public JSONResult addPreferential(Preferential preferential){
         return restaurantService.addPreferential(preferential);
     }
+
+    @GetMapping("/findRestaurantById")
+    @ApiOperation(value = "根据id查询商家信息")
+    public JSONResult findRestaurantById(Integer id){
+        return restaurantService.findRestaurantById(id);
+    }
 }

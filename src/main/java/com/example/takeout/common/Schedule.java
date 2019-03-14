@@ -42,13 +42,13 @@ public class Schedule {
     }
 
     //平台将收到的钱结算给餐厅
-//    @Scheduled(fixedDelay = 5000)
-//    public void findSettlementTest(){
-//        List<Integer> stay = paymentdetailsMapper.findSettlement();
-//        ss(stay);
-//    }
+    @Scheduled(fixedDelay = 5000)
+    public void findSettlementTest(){
+        List<Integer> stay = paymentdetailsMapper.findSettlement();
+        ss(stay);
+    }
 
-    //
+    //将所有要结算给商家的订单查出来 然后依次结算
     private void ss(List<Integer> stay){
         for (int i = 0;i<stay.size();i++){
             Orders orders = ordersMapper.selectByPrimaryKey(stay.get(i));
@@ -66,10 +66,11 @@ public class Schedule {
         balance = balance.add(money);
         restaurant.setRestaurantBalance(balance);
         restaurantMapper.updateMerchantsInfo(restaurant);
+        updatePaymentStatus(orders.getOrderId());
     }
 
-    //将结算
-    private void updatePaymentStatus(){
-
+    //结算成功后将订单状态改为已结算
+    private void updatePaymentStatus(Integer orderId){
+        paymentdetailsMapper.updatePaymentStasus(orderId);
     }
 }

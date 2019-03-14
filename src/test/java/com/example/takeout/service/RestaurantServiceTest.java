@@ -94,14 +94,19 @@ public class RestaurantServiceTest {
     @Test
     public void addPreferentialTest(){
         Preferential preferential = new Preferential();
-        preferential.setGoodsId(1);
+        preferential.setGoodsId(2);
         preferential.setOverdue(new Timestamp(System.currentTimeMillis()));
         preferential.setStatus(1);
         preferential.setRatio(0.5F);
         preferential.setPreferentialDescribe("这是描述");
 
         restaurantService.addPreferential(preferential);
+    }
 
+    @Test
+    public void findRestaurantByIdTest(){
+        JSONResult restaurantById = restaurantService.findRestaurantById(2);
+        System.out.println(JSON.toJSON(restaurantById));
     }
 
 }
