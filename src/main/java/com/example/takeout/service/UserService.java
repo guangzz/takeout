@@ -33,6 +33,9 @@ public class UserService {
     @Autowired
     private PaymentdetailsMapper paymentdetailsMapper;
 
+    @Autowired
+    private PreferentialMapper preferentialMapper;
+
     /**
      * 用户登陆
      * @param userEmail 邮箱
@@ -274,6 +277,15 @@ public class UserService {
             total = total.add(multiply);
         }
         return total;
+    }
+
+    /**
+     * 判断当前商品是否有折扣优惠
+     * @param goodsId
+     * @return
+     */
+    public BigDecimal isDiscount(Integer goodsId){
+        return preferentialMapper.findDiscount(goodsId);
     }
 
     /**

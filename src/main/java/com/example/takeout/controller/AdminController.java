@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("admin")
 @ResponseBody
 @Api(description = "管理员接口",value = "/admin",tags = "adminApi")
+@CrossOrigin
 public class AdminController {
 
     @Autowired

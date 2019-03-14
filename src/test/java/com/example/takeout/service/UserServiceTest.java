@@ -139,4 +139,10 @@ public class UserServiceTest {
         System.out.println(JSON.toJSON(jsonResult));
     }
 
+    @Test
+    public void isDiscount(){
+        BigDecimal discount = userService.isDiscount(1);
+        System.out.println(discount);
+    }
+
 }

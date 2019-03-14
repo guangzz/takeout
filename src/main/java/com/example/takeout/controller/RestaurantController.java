@@ -47,13 +47,13 @@ public class RestaurantController {
     @GetMapping("/findProduct")
     @ApiOperation(value = "分页查询商品",response = Goods.class)
     public JSONResult findProduct(Integer page){
-        return JSONResult.ok(restaurantService.findAllProduct(page));
+        return restaurantService.findAllProduct(page);
     }
 
     @GetMapping("/findAllRestaurant")
     @ApiOperation(value = "查询所有商家")
     public JSONResult findAllRestaurant(Integer page){
-        return JSONResult.ok(restaurantService.findAllRestaurant(page));
+        return restaurantService.findAllRestaurant(page);
     }
 
     @PostMapping("/addPreferential")

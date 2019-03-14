@@ -80,7 +80,7 @@ public class UserController {
     @PostMapping("/confirmOrder")
     @ApiOperation(value = "确认收货")
     public JSONResult confirmOrder(@RequestBody Orders orders){
-        return JSONResult.ok(userService.confirmOrder(orders));
+        return userService.confirmOrder(orders);
     }
 
     @GetMapping("/refund/{id}")
@@ -93,7 +93,7 @@ public class UserController {
     @GetMapping("/consumption")
     @ApiOperation(value = "查看个人的消费金额")
     public JSONResult consumption(Integer userId){
-        return JSONResult.ok(userService.consumption(userId));
+        return userService.consumption(userId);
     }
 
     @GetMapping("/consumptionInfo/{uesrId}")

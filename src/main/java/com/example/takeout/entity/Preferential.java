@@ -27,7 +27,7 @@ public class Preferential implements Serializable {
     /**
      * 比率
      */
-    private Integer ratio;
+    private Float ratio;
 
     /**
      * 活动的创建时间
@@ -65,11 +65,11 @@ public class Preferential implements Serializable {
         this.goodsId = goodsId;
     }
 
-    public Integer getRatio() {
+    public Float getRatio() {
         return ratio;
     }
 
-    public void setRatio(Integer ratio) {
+    public void setRatio(Float ratio) {
         this.ratio = ratio;
     }
 
