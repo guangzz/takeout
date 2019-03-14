@@ -38,7 +38,7 @@ public interface OrdersMapper extends MyBatisBaseDao<Orders, Integer> {
     BigDecimal findByInterval(@Param("restaurantID") Integer id, @Param("start") Timestamp start, @Param("end") Timestamp end);
 
 
-    @Select(value = {"SELECT ", SELECT_FIELD, " FROM ", TABLE, "WHERE user_id=#{userID}"})
+    @Select(value = {"SELECT ", SELECT_FIELD, " FROM ", TABLE, " restaurant WHERE user_id=#{userID} AND orders.restaurant_id = restaurant.restaurant_id"})
     List<Orders> findInfo(@Param("userID") Integer userID);
 
 
