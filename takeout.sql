@@ -11,7 +11,7 @@
  Target Server Version : 50560
  File Encoding         : 65001
 
- Date: 14/03/2019 10:24:54
+ Date: 14/03/2019 17:27:45
 */
 
 SET NAMES utf8mb4;
@@ -162,9 +162,13 @@ CREATE TABLE `preferential`  (
   `preferential_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '优惠表的主键',
   `preferential_describe` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '优惠描述信息',
   `goods_id` int(11) NOT NULL COMMENT '商品表的外键',
-  `ratio` int(11) NULL DEFAULT NULL COMMENT '比率',
-  PRIMARY KEY (`preferential_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+  `ratio` float(10, 2) NULL DEFAULT NULL COMMENT '比率',
+  `overdue` datetime NOT NULL COMMENT '活动的创建时间',
+  `status` int(11) NULL DEFAULT NULL COMMENT '该活动的有效状态',
+  PRIMARY KEY (`preferential_id`) USING BTREE,
+  INDEX `goods_id`(`goods_id`) USING BTREE,
+  CONSTRAINT `preferential_ibfk_1` FOREIGN KEY (`goods_id`) REFERENCES `goods` (`goods_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for restaurant
@@ -223,7 +227,7 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (2, 'sssa', '260098993@qq.com', '123123', NULL, 1, 930.90);
+INSERT INTO `user` VALUES (2, 'aabb', '260098993@qq.com', '12345678', NULL, 1, 930.90);
 INSERT INTO `user` VALUES (3, 'string', 'string', 'string', 0, 0, 0.00);
 INSERT INTO `user` VALUES (6, '长沙彭于晏', '396009006@qq.com', '123456', 1, 1, 0.00);
 
