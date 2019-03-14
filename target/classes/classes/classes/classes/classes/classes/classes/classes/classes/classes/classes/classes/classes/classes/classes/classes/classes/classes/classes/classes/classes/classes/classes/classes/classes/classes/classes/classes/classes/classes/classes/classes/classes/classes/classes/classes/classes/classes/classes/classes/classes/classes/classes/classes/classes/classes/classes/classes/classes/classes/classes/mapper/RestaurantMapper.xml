@@ -9,10 +9,9 @@
     <result column="restaurant_type" jdbcType="VARCHAR" property="restaurantType" />
     <result column="restaurant_status" jdbcType="INTEGER" property="restaurantStatus"/>
     <result column="restaurant_name" jdbcType="VARCHAR" property="restaurantName"/>
-    <result column="restaurant_balance" jdbcType="DECIMAL" property="restaurantBalance"/>
   </resultMap>
   <sql id="Base_Column_List">
-    restaurant_id, restaurant_user, restaurant_pass, restaurant_address, restaurant_type, restaurant_status,restaurant_name,restaurant_balance
+    restaurant_id, restaurant_user, restaurant_pass, restaurant_address, restaurant_type, restaurant_status,restaurant_name
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select
@@ -25,10 +24,10 @@
     where restaurant_id = #{restaurantId,jdbcType=INTEGER}
   </delete>
   <insert id="insert" keyColumn="restaurant_id" keyProperty="restaurantId" parameterType="com.example.takeout.entity.Restaurant" useGeneratedKeys="true">
-    insert into restaurant (restaurant_user, restaurant_pass, restaurant_address,
-      restaurant_type, restaurant_status,restaurant_name,restaurant_balance)
-    values (#{restaurantUser,jdbcType=VARCHAR}, #{restaurantPass,jdbcType=VARCHAR}, #{restaurantAddress,jdbcType=VARCHAR},
-      #{restaurantType,jdbcType=VARCHAR}, #{restaurantStatus,jdbcType=INTEGER},#{restaurantName,jdbcType=VARCHAR},#{restaurantBalance,jdbcType=DECIMAL})
+    insert into restaurant (restaurant_user, restaurant_pass, restaurant_address, 
+      restaurant_type, restaurant_status,restaurant_name)
+    values (#{restaurantUser,jdbcType=VARCHAR}, #{restaurantPass,jdbcType=VARCHAR}, #{restaurantAddress,jdbcType=VARCHAR}, 
+      #{restaurantType,jdbcType=VARCHAR}, #{restaurantStatus,jdbcType=INTEGER},#{restaurantName,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" keyColumn="restaurant_id" keyProperty="restaurantId" parameterType="com.example.takeout.entity.Restaurant" useGeneratedKeys="true">
     insert into restaurant
@@ -51,9 +50,6 @@
       <if test="restaurantName != null">
         restaurant_name,
       </if>
-      <if test="restaurantBalance != null">
-        restaurant_balance,
-      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="restaurantUser != null">
@@ -73,9 +69,6 @@
       </if>
       <if test="restaurantName != null">
         #{restaurantName,jdbcType=VARCHAR},
-      </if>
-      <if test="restaurantBalance != null">
-        #{restaurantBalance,jdbcType=DECIMAL},
       </if>
     </trim>
   </insert>
@@ -100,9 +93,6 @@
       <if test="restaurantName != null">
         restaurant_name = #{restaurantName,jdbcType=VARCHAR},
       </if>
-      <if test="restaurantName != null">
-        restaurant_balance = #{restaurantBalance,jdbcType=DECIMAL},
-      </if>
     </set>
     where restaurant_id = #{restaurantId,jdbcType=INTEGER}
   </update>
@@ -114,7 +104,6 @@
       restaurant_type = #{restaurantType,jdbcType=VARCHAR},
       restaurant_status = #{restaurantStatus,jdbcType=INTEGER},
       restaurant_name = #{restaurantName,jdbcType=VARCHAR},
-      restaurant_balance = #{restaurantBalance,jdbcType=DECIMAL}
     where restaurant_id = #{restaurantId,jdbcType=INTEGER}
   </update>
   <update id="updateMerchantsInfo" parameterType="com.example.takeout.entity.Restaurant">
@@ -134,9 +123,6 @@
       </if>
       <if test="restaurantName != null">
         restaurant_name=#{restaurantName},
-      </if>
-      <if test="restaurantName != null">
-        restaurant_balance=#{restaurantBalance},
       </if>
     </trim>
     where restaurant_id=#{restaurantId}

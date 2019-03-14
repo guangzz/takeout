@@ -248,6 +248,8 @@ public class UserService {
         List<Orderdetails> details = orderdetailsMapper.findDetailsByOrderId(orderId);
 
         Orders order = ordersMapper.selectByPrimaryKey(orderId);
+        if (order.getOrderStatus() == 500)
+            return JSONResult.errorMsg("该订单已过期");
 
         BigDecimal total = calculateTotal(details);
         BigDecimal balance = user.getBalance();

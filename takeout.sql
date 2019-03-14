@@ -11,7 +11,7 @@
  Target Server Version : 50560
  File Encoding         : 65001
 
- Date: 14/03/2019 20:12:37
+ Date: 15/03/2019 01:56:04
 */
 
 SET NAMES utf8mb4;
@@ -26,6 +26,7 @@ CREATE TABLE `address`  (
   `address_value` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '送餐地址',
   `user_id` int(11) NULL DEFAULT NULL COMMENT '用户外键',
   `address_phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '送餐电话',
+  `address_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '收货人名字',
   PRIMARY KEY (`address_id`) USING BTREE,
   INDEX `user_id`(`user_id`) USING BTREE,
   CONSTRAINT `address_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
@@ -34,10 +35,10 @@ CREATE TABLE `address`  (
 -- ----------------------------
 -- Records of address
 -- ----------------------------
-INSERT INTO `address` VALUES (1, '司徒', 2, '13');
-INSERT INTO `address` VALUES (2, '司徒3', 2, '21');
-INSERT INTO `address` VALUES (4, 'string', 2, 'string');
-INSERT INTO `address` VALUES (5, 'string', 2, 'string');
+INSERT INTO `address` VALUES (1, '司徒', 2, '13', NULL);
+INSERT INTO `address` VALUES (2, '司徒3', 2, '21', NULL);
+INSERT INTO `address` VALUES (4, 'string', 2, 'string', NULL);
+INSERT INTO `address` VALUES (5, 'string', 2, 'string', NULL);
 
 -- ----------------------------
 -- Table structure for admin
@@ -96,15 +97,13 @@ CREATE TABLE `orderdetails`  (
   INDEX `goods_id`(`goods_id`) USING BTREE,
   CONSTRAINT `orderdetails_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `orderdetails_ibfk_2` FOREIGN KEY (`goods_id`) REFERENCES `goods` (`goods_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 19 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of orderdetails
 -- ----------------------------
-INSERT INTO `orderdetails` VALUES (3, 4, 1, 1);
-INSERT INTO `orderdetails` VALUES (4, 4, 1, 1);
-INSERT INTO `orderdetails` VALUES (5, 5, 1, 1);
-INSERT INTO `orderdetails` VALUES (6, 5, 1, 1);
+INSERT INTO `orderdetails` VALUES (17, 11, 1, 1);
+INSERT INTO `orderdetails` VALUES (18, 11, 1, 1);
 
 -- ----------------------------
 -- Table structure for orders
@@ -124,13 +123,12 @@ CREATE TABLE `orders`  (
   INDEX `restaurant_id`(`restaurant_id`) USING BTREE,
   CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurant` (`restaurant_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of orders
 -- ----------------------------
-INSERT INTO `orders` VALUES (4, 2, '2019-03-11 14:48:57', 1, 'aabbccdd', 69.10, 501, 1);
-INSERT INTO `orders` VALUES (5, 2, '2019-03-11 14:48:57', 1, NULL, NULL, 501, 1);
+INSERT INTO `orders` VALUES (11, 2, '2019-03-15 00:56:13', 1, NULL, NULL, 500, 1);
 
 -- ----------------------------
 -- Table structure for paymentdetails
@@ -150,12 +148,6 @@ CREATE TABLE `paymentdetails`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
--- Records of paymentdetails
--- ----------------------------
-INSERT INTO `paymentdetails` VALUES (1, 2, 69.10, 501, 4);
-INSERT INTO `paymentdetails` VALUES (2, 2, 10.00, 0, 4);
-
--- ----------------------------
 -- Table structure for preferential
 -- ----------------------------
 DROP TABLE IF EXISTS `preferential`;
@@ -169,7 +161,7 @@ CREATE TABLE `preferential`  (
   PRIMARY KEY (`preferential_id`) USING BTREE,
   INDEX `goods_id`(`goods_id`) USING BTREE,
   CONSTRAINT `preferential_ibfk_1` FOREIGN KEY (`goods_id`) REFERENCES `goods` (`goods_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for restaurant
