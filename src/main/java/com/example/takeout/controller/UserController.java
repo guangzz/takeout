@@ -60,11 +60,11 @@ public class UserController {
     }
 
 
-    @PostMapping("/findUserOrder")
-    @ApiOperation(value = "查询该用户下的未支付的有效订单",response = Orders.class)
-    public JSONResult findUserOrder(@RequestBody User user){
-        return userService.findUserOrder(user);
-    }
+//    @PostMapping("/findUserOrder")
+//    @ApiOperation(value = "查询该用户下的未支付的有效订单",response = Orders.class)
+//    public JSONResult findUserOrder(@RequestBody User user){
+//        return userService.findUserOrder(user);
+//    }
 
     @PostMapping("/saveOrders")
     @ApiOperation(value = "生成订单")
@@ -103,11 +103,11 @@ public class UserController {
         return userService.consumptionInfo(userId);
     }
 
-    @GetMapping("/findRefund/{userId}")
-    @ApiOperation(value = "查看退订的订单")
-    public JSONResult findRefund(@PathVariable("userId") Integer userId){
-        return userService.findRefund(userId);
-    }
+//    @GetMapping("/findRefund/{userId}")
+//    @ApiOperation(value = "查看退订的订单")
+//    public JSONResult findRefund(@PathVariable("userId") Integer userId){
+//        return userService.findRefund(userId);
+//    }
 
 
     @PostMapping("/distance")
