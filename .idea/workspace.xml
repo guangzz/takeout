@@ -4,55 +4,76 @@
     <list default="true" id="5633f673-e6fd-471d-8959-046f09534467" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/GoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/GoodsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/RestaurantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/RestaurantMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/takeout/common/Schedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/takeout/common/Schedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/takeout/service/RestaurantServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/takeout/service/RestaurantServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/PreferentialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/classes/test-classes/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/takeout/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/takeout/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/takeout/mapper/OrdersMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/takeout/mapper/OrdersMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/takeout/service/RestaurantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/takeout/service/RestaurantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/takeout/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/takeout/service/UserServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,21 +94,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/TakeoutApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="180">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
-                <element signature="e#512#513#0" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/GoodsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+            <state relative-caret-position="295">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,14 +116,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="136" column="39" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="39" />
+            <state relative-caret-position="410">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3461#3462#0" expanded="true" />
-                <element signature="e#3488#3489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="343" column="5" selection-start-line="343" selection-start-column="5" selection-end-line="343" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9882#9883#0" expanded="true" />
+                <element signature="e#9949#9950#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="123" column="56" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+              <folding>
+                <element signature="e#3260#3261#0" expanded="true" />
+                <element signature="e#3318#3319#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+            <state relative-caret-position="71">
+              <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,7 +206,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/RestaurantMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -157,7 +223,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>goodsStatus</find>
       <find>com.example.takeout.mapper.GoodsDAO</find>
       <find>PageHelper</find>
       <find>order</find>
@@ -187,6 +252,7 @@
       <find>saveOrders</find>
       <find>updateOverdueOrders</find>
       <find>selectByPrimaryKey</find>
+      <find>consumptionInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,7 +273,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/mapper/GoodsDAO.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/constant/PaymentStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/service/AdminService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/takeout/service/AdminServiceTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -238,14 +303,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/service/UserService.java" />
         <option value="$PROJECT_DIR$/takeout.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/PaymentdetailsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/controller/RestaurantController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/common/Schedule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/RestaurantMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/GoodsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java" />
       </list>
     </option>
   </component>
@@ -461,7 +527,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552595544226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552597371282" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -500,22 +566,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RestaurantServiceTest.addPreferentialTest">
-    <configuration name="GoodsServiceTest.jisuan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="takeout" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.takeout.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.takeout.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.takeout.service.GoodsServiceTest" />
-      <option name="METHOD_NAME" value="jisuan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestaurantServiceTest.addPreferentialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="takeout" />
       <extension name="coverage">
@@ -564,6 +614,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest.consumptionInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="takeout" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.takeout.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.takeout.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.takeout.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="consumptionInfoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest.saveOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="takeout" />
       <extension name="coverage">
@@ -589,19 +655,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RestaurantServiceTest.addPreferentialTest" />
-      <item itemvalue="JUnit.GoodsServiceTest.jisuan" />
       <item itemvalue="JUnit.UserServiceTest.saveOrdersTest" />
       <item itemvalue="JUnit.UserServiceTest.commitOrderTest" />
       <item itemvalue="JUnit.RestaurantServiceTest.findRestaurantByIdTest" />
       <item itemvalue="Spring Boot.TakeoutApplication" />
+      <item itemvalue="JUnit.UserServiceTest.consumptionInfoTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RestaurantServiceTest.addPreferentialTest" />
+        <item itemvalue="JUnit.UserServiceTest.saveOrdersTest" />
+        <item itemvalue="JUnit.UserServiceTest.consumptionInfoTest" />
         <item itemvalue="JUnit.RestaurantServiceTest.findRestaurantByIdTest" />
         <item itemvalue="JUnit.UserServiceTest.commitOrderTest" />
-        <item itemvalue="JUnit.UserServiceTest.saveOrdersTest" />
-        <item itemvalue="JUnit.GoodsServiceTest.jisuan" />
       </list>
     </recent_temporary>
   </component>
@@ -638,26 +704,11 @@
       <workItem from="1552527725557" duration="3029000" />
       <workItem from="1552530987849" duration="19688000" />
       <workItem from="1552573241134" duration="18299000" />
-      <workItem from="1552594788224" duration="990000" />
+      <workItem from="1552594788224" duration="2766000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_saveOrdersTest - 2019.03.15 at 00h 24m 23s.xml">
-      <configuration name="UserServiceTest.saveOrdersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_saveOrdersTest - 2019.03.15 at 00h 56m 14s.xml">
-      <configuration name="UserServiceTest.saveOrdersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_commitOrderTest - 2019.03.15 at 01h 46m 16s.xml">
-      <configuration name="UserServiceTest.commitOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 02h 09m 29s.xml">
-      <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_saveOrdersTest - 2019.03.15 at 02h 50m 00s.xml">
-      <configuration name="UserServiceTest.saveOrdersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 02h 50m 39s.xml">
       <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
     </history-entry>
@@ -673,9 +724,24 @@
     <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 04h 27m 01s.xml">
       <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_consumptionInfoTest - 2019.03.15 at 04h 47m 32s.xml">
+      <configuration name="UserServiceTest.consumptionInfoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_saveOrdersTest - 2019.03.15 at 04h 50m 27s.xml">
+      <configuration name="UserServiceTest.saveOrdersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 04h 52m 18s.xml">
+      <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 04h 55m 38s.xml">
+      <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantServiceTest_addPreferentialTest - 2019.03.15 at 04h 56m 16s.xml">
+      <configuration name="RestaurantServiceTest.addPreferentialTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223798000" />
+    <option name="totallyTimeSpent" value="225574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
@@ -691,14 +757,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32951945" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946523" visible="true" weight="0.3478261" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893048" visible="true" weight="0.4313501" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4633867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.19908467" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.19107552" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005348" side_tool="true" weight="0.45308924" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106955" side_tool="true" weight="0.42791763" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32951945" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -1056,27 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-          <folding>
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2576#2577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="249" column="57" selection-start-line="249" selection-start-column="57" selection-end-line="249" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1094,7 +1139,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/RestaurantMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1111,55 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="136" column="39" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3461#3462#0" expanded="true" />
-            <element signature="e#3488#3489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/common/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/PaymentdetailsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -1167,21 +1163,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/common/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/TakeoutApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="180">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <element signature="e#512#513#0" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="343" column="5" selection-start-line="343" selection-start-column="5" selection-end-line="343" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9882#9883#0" expanded="true" />
+            <element signature="e#9949#9950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="123" column="56" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/OrdersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding>
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#3318#3319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/mapper/GoodsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        <state relative-caret-position="295">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/takeout/service/RestaurantServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/takeout/service/RestaurantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

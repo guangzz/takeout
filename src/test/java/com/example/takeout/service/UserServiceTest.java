@@ -77,7 +77,7 @@ public class UserServiceTest {
             integers.add(goods);
 
             Goods goods2 = new Goods();
-            goods2.setGoodsId(2);
+            goods2.setGoodsId(1);
             goods2.setRestaurantId(2);
             integers.add(goods);
 

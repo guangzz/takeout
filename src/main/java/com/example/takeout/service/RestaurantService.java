@@ -135,7 +135,7 @@ public class RestaurantService {
      * @return
      */
     public JSONResult findRatioProducts(Integer restaurantId){
-        return null;
+        return JSONResult.ok(goodsDAO.findRatioProducts(restaurantId));
     }
 
 }

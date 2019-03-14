@@ -6,9 +6,10 @@
     <result column="address_value" jdbcType="VARCHAR" property="addressValue" />
     <result column="user_id" jdbcType="INTEGER" property="userId" />
     <result column="address_phone" jdbcType="VARCHAR" property="addressPhone" />
+    <result column="address_name" jdbcType="VARCHAR" property="addressName" />
   </resultMap>
   <sql id="Base_Column_List">
-    address_id, address_value, user_id, address_phone
+    address_id, address_value, user_id, address_phone,address_name
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select
@@ -21,9 +22,9 @@
     where address_id = #{addressId,jdbcType=INTEGER}
   </delete>
   <insert id="insert" keyColumn="address_id" keyProperty="addressId" parameterType="com.example.takeout.entity.Address" useGeneratedKeys="true">
-    insert into address (address_value, user_id, address_phone
+    insert into address (address_value, user_id, address_phone,address_name
       )
-    values (#{addressValue,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER}, #{addressPhone,jdbcType=VARCHAR}
+    values (#{addressValue,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER}, #{addressPhone,jdbcType=VARCHAR},#{addressName,jdbcType=VARCHAR}
       )
   </insert>
   <insert id="insertSelective" keyColumn="address_id" keyProperty="addressId" parameterType="com.example.takeout.entity.Address" useGeneratedKeys="true">
@@ -38,6 +39,9 @@
       <if test="addressPhone != null">
         address_phone,
       </if>
+      <if test="addressName != null">
+        address_name,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="addressValue != null">
@@ -48,6 +52,9 @@
       </if>
       <if test="addressPhone != null">
         #{addressPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="addressName != null">
+        #{addressName,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -63,6 +70,9 @@
       <if test="addressPhone != null">
         address_phone = #{addressPhone,jdbcType=VARCHAR},
       </if>
+      <if test="addressPhone != null">
+        address_name = #{addressName,jdbcType=VARCHAR},
+      </if>
     </set>
     where address_id = #{addressId,jdbcType=INTEGER}
   </update>
@@ -70,7 +80,8 @@
     update address
     set address_value = #{addressValue,jdbcType=VARCHAR},
       user_id = #{userId,jdbcType=INTEGER},
-      address_phone = #{addressPhone,jdbcType=VARCHAR}
+      address_phone = #{addressPhone,jdbcType=VARCHAR},
+      address_name = #{addressName,jdbcType=VARCHAR}
     where address_id = #{addressId,jdbcType=INTEGER}
   </update>
   <select id="findByUserId" parameterType="java.lang.Integer" resultType="com.example.takeout.entity.Address">
@@ -84,6 +95,9 @@
       </if>
       <if test="addressPhone != null">
         address_phone=#{addressPhone},
+      </if>
+      <if test="addressName != null">
+        address_name=#{addressName},
       </if>
     </trim>
     where address_id=#{addressId}
