@@ -185,8 +185,8 @@ public class UserService {
      * @param goods
      * @return
      */
-    public JSONResult saveOrders(List<Goods> goods,User user){
-        Map<Integer, Orders> orders = createOrders(goods,user.getUserId());
+    public JSONResult saveOrders(List<Goods> goods,Integer userId){
+        Map<Integer, Orders> orders = createOrders(goods,userId);
         for (int i = 0;i<goods.size();i++){
             //this
             Goods product = goods.get(i);
@@ -271,8 +271,14 @@ public class UserService {
         for (Orderdetails d : orderdetails) {
             Integer productId = d.getGoodsId();
             Goods product = goodsDAO.findGoodsById(productId);
-            BigDecimal price = product.getGoodsPrice();
-
+            BigDecimal discount = isDiscount(product.getGoodsId());
+            //判断该商品是否有优惠折扣
+            BigDecimal price = null;
+            if (null != discount) {
+                price = price.multiply(discount);
+            }
+            else
+                price = product.getGoodsPrice();
             BigDecimal multiply = price.multiply(new BigDecimal(1));
             total = total.add(multiply);
         }
