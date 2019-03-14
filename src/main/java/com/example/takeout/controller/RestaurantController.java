@@ -1,0 +1,59 @@
+package com.example.takeout.controller;
+
+import com.example.takeout.common.JSONResult;
+import com.example.takeout.entity.Goods;
+import com.example.takeout.entity.Restaurant;
+import com.example.takeout.service.RestaurantService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@ResponseBody
+@RequestMapping("restaurant")
+@Api(value = "/restaurant",tags = "restaurantApi",description = "商家接口")
+@CrossOrigin
+public class RestaurantController {
+
+    @Autowired
+    private RestaurantService restaurantService;
+
+
+
+
+    @PostMapping("/merchantsRegister")
+    @ApiOperation(value = "商家注册",response = Restaurant.class)
+    public JSONResult merchantsRegister(@RequestBody Restaurant restaurant){
+        return restaurantService.merchantsRegister(restaurant);
+    }
+
+
+    @PostMapping("/updateMerchantsInfo")
+    @ApiOperation(value = "修改信息",response = Restaurant.class)
+    public JSONResult updateMerchantsInfo(@RequestBody Restaurant restaurant){
+        return restaurantService.updateMerchantsInfo(restaurant);
+    }
+
+
+    @PostMapping("/productRelease")
+    @ApiOperation(value = "发布商品",response = Goods.class)
+    public JSONResult productRelease(@RequestBody Goods product){
+        return restaurantService.productRelease(product);
+    }
+
+
+    @GetMapping("/findProduct")
+    @ApiOperation(value = "分页查询商品",response = Goods.class)
+    public JSONResult findProduct(Integer page){
+        return JSONResult.ok(restaurantService.findAllProduct(page));
+    }
+
+    @GetMapping("/findAllRestaurant")
+    @ApiOperation(value = "查询所有商家")
+    public JSONResult findAllRestaurant(Integer page){
+        return JSONResult.ok(restaurantService.findAllRestaurant(page));
+    }
+
+
+}

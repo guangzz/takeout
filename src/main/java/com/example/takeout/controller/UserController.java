@@ -1,0 +1,111 @@
+package com.example.takeout.controller;
+
+import com.example.takeout.common.JSONResult;
+import com.example.takeout.entity.Goods;
+import com.example.takeout.entity.Orders;
+import com.example.takeout.entity.User;
+import com.example.takeout.service.UserService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.mail.MessagingException;
+import java.io.UnsupportedEncodingException;
+import java.util.List;
+
+@RestController
+@ResponseBody
+@RequestMapping("/user")
+@CrossOrigin
+@Api(value = "/user",tags = "userApi", description = "用户接口")
+public class UserController {
+
+    @Autowired
+    private UserService userService;
+
+    @PostMapping("/login")
+    @ApiOperation(value = "用户登陆",response = User.class)
+    public JSONResult login(String userEmail, String userPass){
+        return userService.login(userEmail,userPass);
+    }
+
+
+    @PostMapping("/register")
+    @ApiOperation(value = "用户注册",response = User.class)
+    public JSONResult register(@RequestBody User user) throws UnsupportedEncodingException, MessagingException {
+        return userService.register(user);
+    }
+
+
+    @GetMapping("/activate")
+    @ApiOperation(value = "注册之后验证激活帐号",response = User.class)
+    public JSONResult activate(String code) throws UnsupportedEncodingException {
+        return userService.activate(code);
+    }
+
+
+    @GetMapping("/cancellation")
+    @ApiOperation(value = "账户注销",response = User.class)
+    public JSONResult cancellation(String email){
+        return userService.cancellation(email);
+    }
+
+
+    @PostMapping("/updataUser")
+    @ApiOperation(value = "修改用户的密码和名字",response = User.class)
+    public JSONResult updataUser(@RequestBody User user){
+        return userService.updateUser(user);
+    }
+
+
+    @PostMapping("/findUserOrder")
+    @ApiOperation(value = "查询该用户下的未支付的有效订单",response = Orders.class)
+    public JSONResult findUserOrder(@RequestBody User user){
+        return userService.findUserOrder(user);
+    }
+
+    @PostMapping("/saveOrders")
+    @ApiOperation(value = "生成订单")
+    public JSONResult saveOrders(List<Goods> products,User user){
+        return userService.saveOrders(products,user);
+    }
+
+    @PostMapping("/commitOrder")
+    @ApiOperation(value = "提交订单")
+    public JSONResult commitOrder(@RequestBody Orders order,Integer userID){
+        return userService.commitOrder(order,userID);
+    }
+
+    @PostMapping("/confirmOrder")
+    @ApiOperation(value = "确认收货")
+    public JSONResult confirmOrder(@RequestBody Orders orders){
+        return JSONResult.ok(userService.confirmOrder(orders));
+    }
+
+    @GetMapping("/refund/{id}")
+    @ApiOperation(value = "退订")
+    public JSONResult refund(@PathVariable("id") Integer orderID){
+        return userService.refund(orderID);
+    }
+
+
+    @GetMapping("/consumption")
+    @ApiOperation(value = "查看个人的消费金额")
+    public JSONResult consumption(Integer userId){
+        return JSONResult.ok(userService.consumption(userId));
+    }
+
+    @GetMapping("/consumptionInfo/{uesrId}")
+    @ApiOperation(value = "查看历史订单")
+    public JSONResult consumptionInfo(@PathVariable("userId") Integer userId){
+        return userService.consumptionInfo(userId);
+    }
+
+    @GetMapping("/findRefund/{userId}")
+    @ApiOperation(value = "查看退订的订单")
+    public JSONResult findRefund(@PathVariable("userId") Integer userId){
+        return userService.findRefund(userId);
+    }
+
+}
