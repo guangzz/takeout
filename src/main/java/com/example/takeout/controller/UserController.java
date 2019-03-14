@@ -53,9 +53,9 @@ public class UserController {
 
 
     @PostMapping("/updataUser")
-    @ApiOperation(value = "修改用户的密码和名字",response = User.class)
-    public JSONResult updataUser(@RequestBody User user){
-        return userService.updateUser(user);
+    @ApiOperation(value = "修改用户的密码和名字")
+    public JSONResult updataUser(Integer userId,String userName,String userPass){
+        return userService.updateUser(userId,userName,userPass);
     }
 
 
