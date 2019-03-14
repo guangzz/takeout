@@ -44,10 +44,20 @@ public class Orders implements Serializable {
      */
     private Integer orderStatus;
 
+    private Integer addressId;
+
     private static final long serialVersionUID = 1L;
 
     public Integer getOrderId() {
         return orderId;
+    }
+
+    public Integer getAddressId() {
+        return addressId;
+    }
+
+    public void setAddressId(Integer addressId) {
+        this.addressId = addressId;
     }
 
     public void setOrderId(Integer orderId) {
@@ -120,7 +130,8 @@ public class Orders implements Serializable {
             && (this.getRestaurantId() == null ? other.getRestaurantId() == null : this.getRestaurantId().equals(other.getRestaurantId()))
             && (this.getOrderDescribe() == null ? other.getOrderDescribe() == null : this.getOrderDescribe().equals(other.getOrderDescribe()))
             && (this.getOrderTotal() == null ? other.getOrderTotal() == null : this.getOrderTotal().equals(other.getOrderTotal()))
-            && (this.getOrderStatus() == null ? other.getOrderStatus() == null : this.getOrderStatus().equals(other.getOrderStatus()));
+            && (this.getOrderStatus() == null ? other.getOrderStatus() == null : this.getOrderStatus().equals(other.getOrderStatus()))
+            && (this.getAddressId() == null ? other.getAddressId() == null : this.getAddressId().equals(other.getAddressId()))   ;
     }
 
     @Override
@@ -134,6 +145,7 @@ public class Orders implements Serializable {
         result = prime * result + ((getOrderDescribe() == null) ? 0 : getOrderDescribe().hashCode());
         result = prime * result + ((getOrderTotal() == null) ? 0 : getOrderTotal().hashCode());
         result = prime * result + ((getOrderStatus() == null) ? 0 : getOrderStatus().hashCode());
+        result = prime * result + ((getAddressId() == null) ? 0 : getAddressId().hashCode());
         return result;
     }
 
@@ -150,6 +162,7 @@ public class Orders implements Serializable {
         sb.append(", orderDescribe=").append(orderDescribe);
         sb.append(", orderTotal=").append(orderTotal);
         sb.append(", orderStatus=").append(orderStatus);
+        sb.append(", addressId=").append(addressId);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

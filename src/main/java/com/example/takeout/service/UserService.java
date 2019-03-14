@@ -185,8 +185,8 @@ public class UserService {
      * @param goods
      * @return
      */
-    public JSONResult saveOrders(List<Goods> goods,Integer userId){
-        Map<Integer, Orders> orders = createOrders(goods,userId);
+    public JSONResult saveOrders(List<Goods> goods,Integer userId,Integer addressId){
+        Map<Integer, Orders> orders = createOrders(goods,userId,addressId);
         for (int i = 0;i<goods.size();i++){
             //this
             Goods product = goods.get(i);
@@ -209,7 +209,7 @@ public class UserService {
      * @param goods
      * @return
      */
-    private Map<Integer,Orders> createOrders(List<Goods> goods,Integer userId){
+    private Map<Integer,Orders> createOrders(List<Goods> goods,Integer userId,Integer addressId){
         Set<Integer> restaurantIdmap = new HashSet<>();
         for (int i = 0;i<goods.size();i++){
             Integer id = goods.get(i).getRestaurantId();
@@ -228,6 +228,7 @@ public class UserService {
             order.setRestaurantId(i);
             order.setOrderStatus(OrderStatus.UNCONFIRMED.value);
             order.setUserId(userId);
+            order.setAddressId(addressId);
             ordersMapper.insertSelective(order);
 
             orders.put(i,order);
@@ -345,4 +346,5 @@ public class UserService {
     public JSONResult findRefund(Integer userId){
         return JSONResult.ok(ordersMapper.findRefund(userId));
     }
+
 }

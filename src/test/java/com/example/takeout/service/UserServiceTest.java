@@ -84,7 +84,7 @@ public class UserServiceTest {
         User user = new User();
         user.setUserId(2);
 
-        userService.saveOrders(integers,2);
+        userService.saveOrders(integers,2,1);
     }
 
 

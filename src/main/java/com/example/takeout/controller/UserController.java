@@ -1,6 +1,7 @@
 package com.example.takeout.controller;
 
 import com.example.takeout.common.JSONResult;
+import com.example.takeout.common.MapPoint;
 import com.example.takeout.entity.Goods;
 import com.example.takeout.entity.Orders;
 import com.example.takeout.entity.User;
@@ -67,8 +68,8 @@ public class UserController {
 
     @PostMapping("/saveOrders")
     @ApiOperation(value = "生成订单")
-    public JSONResult saveOrders(List<Goods> products,Integer userId){
-        return userService.saveOrders(products,userId);
+    public JSONResult saveOrders(List<Goods> products,Integer userId,Integer addressId){
+        return userService.saveOrders(products,userId,addressId);
     }
 
     @PostMapping("/commitOrder")
@@ -108,4 +109,11 @@ public class UserController {
         return userService.findRefund(userId);
     }
 
+
+    @PostMapping("/distance")
+    @ApiOperation(value = "根据两个地点的经纬度计算直线距离")
+    public JSONResult distance(@RequestBody MapPoint start,@RequestBody MapPoint end){
+        double distence = MapPoint.getDistence(start, end);
+        return JSONResult.ok(distence);
+    }
 }
