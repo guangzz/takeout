@@ -200,7 +200,7 @@ public class UserService {
 
             orderdetailsMapper.insertSelective(details);
         }
-        return JSONResult.ok();
+        return JSONResult.ok(order.getOrderId());
     }
 
 

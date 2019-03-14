@@ -49,6 +49,14 @@ public class Address implements Serializable {
         this.addressPhone = addressPhone;
     }
 
+    public String getAddressName() {
+        return addressName;
+    }
+
+    public void setAddressName(String addressName) {
+        this.addressName = addressName;
+    }
+
     /**
      * 用户外键
      */
@@ -58,6 +66,11 @@ public class Address implements Serializable {
      * 送餐电话
      */
     private String addressPhone;
+
+    /**
+     * 收货人名字
+     */
+    private String addressName;
 
     private static final long serialVersionUID = 1L;
 
@@ -78,7 +91,8 @@ public class Address implements Serializable {
         return (this.getAddressId() == null ? other.getAddressId() == null : this.getAddressId().equals(other.getAddressId()))
             && (this.getAddressValue() == null ? other.getAddressValue() == null : this.getAddressValue().equals(other.getAddressValue()))
             && (this.getUserId() == null ? other.getUserId() == null : this.getUserId().equals(other.getUserId()))
-            && (this.getAddressPhone() == null ? other.getAddressPhone() == null : this.getAddressPhone().equals(other.getAddressPhone()));
+            && (this.getAddressPhone() == null ? other.getAddressPhone() == null : this.getAddressPhone().equals(other.getAddressPhone()))
+            && (this.getAddressName() == null ? other.getAddressName() == null : this.getAddressName().equals(other.getAddressName()));
     }
 
     @Override
@@ -89,6 +103,7 @@ public class Address implements Serializable {
         result = prime * result + ((getAddressValue() == null) ? 0 : getAddressValue().hashCode());
         result = prime * result + ((getUserId() == null) ? 0 : getUserId().hashCode());
         result = prime * result + ((getAddressPhone() == null) ? 0 : getAddressPhone().hashCode());
+        result = prime * result + ((getAddressName() == null) ? 0 : getAddressName().hashCode());
         return result;
     }
 
@@ -102,6 +117,7 @@ public class Address implements Serializable {
         sb.append(", addressValue=").append(addressValue);
         sb.append(", userId=").append(userId);
         sb.append(", addressPhone=").append(addressPhone);
+        sb.append(", addressName=").append(addressName);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();
