@@ -20,7 +20,7 @@ public class GoodsController {
     @GetMapping("/findProductByRestaurant")
     @ApiOperation(value = "根据商家id查询该商家下的商品")
     public JSONResult findProductByRestaurant(Integer restaurantId){
-        return JSONResult.ok(goodsService.findProductByRestaurant(restaurantId));
+        return goodsService.findProductByRestaurant(restaurantId);
     }
 
 

@@ -95,7 +95,13 @@ public class RestaurantServiceTest {
     public void addPreferentialTest(){
         Preferential preferential = new Preferential();
         preferential.setGoodsId(1);
-//        preferential
+        preferential.setOverdue(new Timestamp(System.currentTimeMillis()));
+        preferential.setStatus(1);
+        preferential.setRatio(1);
+        preferential.setPreferentialDescribe("这是描述");
+
+        restaurantService.addPreferential(preferential);
+
     }
 
 }

@@ -95,4 +95,7 @@
       status = #{status,jdbcType=INTEGER}
     where preferential_id = #{preferentialId,jdbcType=INTEGER}
   </update>
+  <delete id="deletePreferentia">
+    delete from preferential where overdue
+  </delete>
 </mapper>

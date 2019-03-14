@@ -117,6 +117,6 @@
   <!-- 由定时器调用,将15分钟内未支付的订单取消(修改订单状态) -->
   <update id="updateOverdueOrders">
       update orders set order_status=500
-      where createTime &lt; date_sub( now(), interval 15 minute ) and order_status=0
+      where createTime &lt; date_sub( now(), interval 2 minute ) and order_status=0
   </update>
 </mapper>
