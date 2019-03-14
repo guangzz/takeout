@@ -1,6 +1,7 @@
 package com.example.takeout.entity;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * restaurant
@@ -38,6 +39,11 @@ public class Restaurant implements Serializable {
      * 商家名字
      */
     private String restaurantName;
+
+    /**
+     * 商家的余额
+     */
+    private BigDecimal restaurantBalance;
 
     public String getRestaurantName() {
         return restaurantName;
@@ -97,6 +103,14 @@ public class Restaurant implements Serializable {
         this.restaurantStatus = restaurantStatus;
     }
 
+    public BigDecimal getRestaurantBalance() {
+        return restaurantBalance;
+    }
+
+    public void setRestaurantBalance(BigDecimal restaurantBalance) {
+        this.restaurantBalance = restaurantBalance;
+    }
+
     @Override
     public boolean equals(Object that) {
         if (this == that) {
@@ -115,7 +129,8 @@ public class Restaurant implements Serializable {
             && (this.getRestaurantAddress() == null ? other.getRestaurantAddress() == null : this.getRestaurantAddress().equals(other.getRestaurantAddress()))
             && (this.getRestaurantType() == null ? other.getRestaurantType() == null : this.getRestaurantType().equals(other.getRestaurantType()))
             && (this.getRestaurantStatus() == null ? other.getRestaurantStatus() == null : this.getRestaurantStatus().equals(other.getRestaurantStatus())
-            && (this.getRestaurantName() == null ? other.getRestaurantName() == null : this.getRestaurantName().equals(other.getRestaurantName())));
+            && (this.getRestaurantName() == null ? other.getRestaurantName() == null : this.getRestaurantName().equals(other.getRestaurantName())))
+            && (this.getRestaurantBalance() == null ? other.getRestaurantBalance() == null : this.getRestaurantBalance().equals(other.getRestaurantBalance()));
     }
 
     @Override
@@ -129,6 +144,7 @@ public class Restaurant implements Serializable {
         result = prime * result + ((getRestaurantType() == null) ? 0 : getRestaurantType().hashCode());
         result = prime * result + ((getRestaurantStatus() == null) ? 0 : getRestaurantStatus().hashCode());
         result = prime * result + ((getRestaurantName() == null) ? 0 : getRestaurantName().hashCode());
+        result = prime * result + ((getRestaurantBalance() == null) ? 0 : getRestaurantBalance().hashCode());
         return result;
     }
 
@@ -145,6 +161,7 @@ public class Restaurant implements Serializable {
         sb.append(", restaurantType=").append(restaurantType);
         sb.append(", restaurantStatus=").append(restaurantStatus);
         sb.append(", restaurantName=").append(restaurantName);
+        sb.append(", restaurantBalance=").append(restaurantBalance);
         sb.append(", serialVersionUID=").append(serialVersionUID);
 
         sb.append("]");

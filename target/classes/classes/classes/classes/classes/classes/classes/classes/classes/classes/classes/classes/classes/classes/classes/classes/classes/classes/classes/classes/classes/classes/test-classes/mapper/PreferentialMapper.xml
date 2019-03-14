@@ -5,7 +5,7 @@
     <id column="preferential_id" jdbcType="INTEGER" property="preferentialId" />
     <result column="preferential_describe" jdbcType="VARCHAR" property="preferentialDescribe" />
     <result column="goods_id" jdbcType="INTEGER" property="goodsId" />
-    <result column="ratio" jdbcType="INTEGER" property="ratio" />
+    <result column="ratio" jdbcType="FLOAT" property="ratio" />
     <result column="overdue" jdbcType="DATE" property="overdue" />
     <result column="status" jdbcType="INTEGER" property="status" />
   </resultMap>
@@ -13,7 +13,7 @@
     preferential_id, preferential_describe, goods_id, ratio,overdue,status
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from preferential
     where preferential_id = #{preferentialId,jdbcType=INTEGER}
@@ -25,7 +25,7 @@
   <insert id="insert" keyColumn="preferential_id" keyProperty="preferentialId" parameterType="com.example.takeout.entity.Preferential" useGeneratedKeys="true">
     insert into preferential (preferential_describe, goods_id, ratio,overdue,status
       )
-    values (#{preferentialDescribe,jdbcType=VARCHAR}, #{goodsId,jdbcType=INTEGER}, #{ratio,jdbcType=INTEGER},
+    values (#{preferentialDescribe,jdbcType=VARCHAR}, #{goodsId,jdbcType=INTEGER}, #{ratio,jdbcType=FLOAT},
             #{overdue,jdbcType=DATE},#{status,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" keyColumn="preferential_id" keyProperty="preferentialId" parameterType="com.example.takeout.entity.Preferential" useGeneratedKeys="true">
@@ -55,7 +55,7 @@
         #{goodsId,jdbcType=INTEGER},
       </if>
       <if test="ratio != null">
-        #{ratio,jdbcType=INTEGER},
+        #{ratio,jdbcType=FLOAT},
       </if>
       <if test="overdue != null">
         #{overdue,jdbcType=DATE},
@@ -75,7 +75,7 @@
         goods_id = #{goodsId,jdbcType=INTEGER},
       </if>
       <if test="ratio != null">
-        ratio = #{ratio,jdbcType=INTEGER},
+        ratio = #{ratio,jdbcType=FLOAT},
       </if>
       <if test="overdue != null">
         overdue = #{overdue,jdbcType=DATE},
@@ -90,9 +90,12 @@
     update preferential
     set preferential_describe = #{preferentialDescribe,jdbcType=VARCHAR},
       goods_id = #{goodsId,jdbcType=INTEGER},
-      ratio = #{ratio,jdbcType=INTEGER},
+      ratio = #{ratio,jdbcType=FLOAT},
       overdue = #{overdue,jdbcType=DATE},
       status = #{status,jdbcType=INTEGER}
     where preferential_id = #{preferentialId,jdbcType=INTEGER}
   </update>
+  <delete id="deletePreferentia">
+    delete from preferential where overdue &lt; date_sub( now(), interval 2 minute )
+  </delete>
 </mapper>
