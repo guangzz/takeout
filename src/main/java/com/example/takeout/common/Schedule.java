@@ -50,6 +50,8 @@ public class Schedule {
 
     //将所有要结算给商家的订单查出来 然后依次结算
     private void ss(List<Integer> stay){
+        if (stay.size()==0)
+            return;
         for (int i = 0;i<stay.size();i++){
             Orders orders = ordersMapper.selectByPrimaryKey(stay.get(i));
             settlement(orders);
