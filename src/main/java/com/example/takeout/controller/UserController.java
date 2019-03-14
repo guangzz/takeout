@@ -67,8 +67,8 @@ public class UserController {
 
     @PostMapping("/saveOrders")
     @ApiOperation(value = "生成订单")
-    public JSONResult saveOrders(List<Goods> products,User user){
-        return userService.saveOrders(products,user);
+    public JSONResult saveOrders(List<Goods> products,Integer userId){
+        return userService.saveOrders(products,userId);
     }
 
     @PostMapping("/commitOrder")
