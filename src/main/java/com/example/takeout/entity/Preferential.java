@@ -1,6 +1,8 @@
 package com.example.takeout.entity;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
+import java.util.Objects;
 
 /**
  * preferential
@@ -26,6 +28,16 @@ public class Preferential implements Serializable {
      * 比率
      */
     private Integer ratio;
+
+    /**
+     * 活动的创建时间
+     */
+    private Timestamp overdue;
+
+    /**
+     * 活动的有效状态
+     */
+    private Integer status;
 
     private static final long serialVersionUID = 1L;
 
@@ -61,47 +73,51 @@ public class Preferential implements Serializable {
         this.ratio = ratio;
     }
 
+
+    public Timestamp getOverdue() {
+        return overdue;
+    }
+
+    public void setOverdue(Timestamp overdue) {
+        this.overdue = overdue;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+
     @Override
-    public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null) {
-            return false;
-        }
-        if (getClass() != that.getClass()) {
-            return false;
-        }
-        Preferential other = (Preferential) that;
-        return (this.getPreferentialId() == null ? other.getPreferentialId() == null : this.getPreferentialId().equals(other.getPreferentialId()))
-            && (this.getPreferentialDescribe() == null ? other.getPreferentialDescribe() == null : this.getPreferentialDescribe().equals(other.getPreferentialDescribe()))
-            && (this.getGoodsId() == null ? other.getGoodsId() == null : this.getGoodsId().equals(other.getGoodsId()))
-            && (this.getRatio() == null ? other.getRatio() == null : this.getRatio().equals(other.getRatio()));
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Preferential that = (Preferential) o;
+        return preferentialId.equals(that.preferentialId) &&
+                preferentialDescribe.equals(that.preferentialDescribe) &&
+                goodsId.equals(that.goodsId) &&
+                ratio.equals(that.ratio) &&
+                overdue.equals(that.overdue) &&
+                status.equals(that.status);
     }
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((getPreferentialId() == null) ? 0 : getPreferentialId().hashCode());
-        result = prime * result + ((getPreferentialDescribe() == null) ? 0 : getPreferentialDescribe().hashCode());
-        result = prime * result + ((getGoodsId() == null) ? 0 : getGoodsId().hashCode());
-        result = prime * result + ((getRatio() == null) ? 0 : getRatio().hashCode());
-        return result;
+        return Objects.hash(preferentialId, preferentialDescribe, goodsId, ratio, overdue, status);
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", preferentialId=").append(preferentialId);
-        sb.append(", preferentialDescribe=").append(preferentialDescribe);
-        sb.append(", goodsId=").append(goodsId);
-        sb.append(", ratio=").append(ratio);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
+        return "Preferential{" +
+                "preferentialId=" + preferentialId +
+                ", preferentialDescribe='" + preferentialDescribe + '\'' +
+                ", goodsId=" + goodsId +
+                ", ratio=" + ratio +
+                ", overdue=" + overdue +
+                ", status=" + status +
+                '}';
     }
 }

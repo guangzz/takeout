@@ -2,6 +2,7 @@ package com.example.takeout.controller;
 
 import com.example.takeout.common.JSONResult;
 import com.example.takeout.entity.Goods;
+import com.example.takeout.entity.Preferential;
 import com.example.takeout.entity.Restaurant;
 import com.example.takeout.service.RestaurantService;
 import io.swagger.annotations.Api;
@@ -55,5 +56,9 @@ public class RestaurantController {
         return JSONResult.ok(restaurantService.findAllRestaurant(page));
     }
 
-
+    @PostMapping("/addPreferential")
+    @ApiOperation(value = "添加一条优惠活动")
+    public JSONResult addPreferential(Preferential preferential){
+        return restaurantService.addPreferential(preferential);
+    }
 }

@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.example.takeout.common.JSONResult;
 import com.example.takeout.constant.OrderStatus;
 import com.example.takeout.entity.Goods;
+import com.example.takeout.entity.Preferential;
 import com.example.takeout.entity.Restaurant;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -88,6 +89,13 @@ public class RestaurantServiceTest {
     public void findAllProductTest(){
         JSONResult allProduct = restaurantService.findAllProduct(1);
         System.out.println(JSON.toJSON(allProduct));
+    }
+
+    @Test
+    public void addPreferentialTest(){
+        Preferential preferential = new Preferential();
+        preferential.setGoodsId(1);
+//        preferential
     }
 
 }

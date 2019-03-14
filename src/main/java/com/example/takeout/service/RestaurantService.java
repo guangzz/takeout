@@ -2,10 +2,12 @@ package com.example.takeout.service;
 
 import com.example.takeout.common.JSONResult;
 import com.example.takeout.entity.Goods;
+import com.example.takeout.entity.Preferential;
 import com.example.takeout.entity.Restaurant;
 import com.example.takeout.idworker.Sid;
 import com.example.takeout.mapper.GoodsDAO;
 import com.example.takeout.mapper.OrdersMapper;
+import com.example.takeout.mapper.PreferentialMapper;
 import com.example.takeout.mapper.RestaurantMapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -26,6 +28,9 @@ public class RestaurantService {
 
     @Autowired
     private OrdersMapper ordersMapper;
+
+    @Autowired
+    private PreferentialMapper preferentialMapper;
 
 
     /**
@@ -67,7 +72,15 @@ public class RestaurantService {
             return JSONResult.errorMsg("发布信息不合法");
     }
 
-//    public JSONResult
+
+    /**
+     * 添加一条优惠活动信息
+     * @param preferential
+     * @return
+     */
+    public JSONResult addPreferential(Preferential preferential){
+        return JSONResult.ok(preferentialMapper.insert(preferential));
+    }
 
 
     /**
