@@ -99,10 +99,16 @@ public class UserService {
 
     /**
      * 修改用户信息
-     * @param user
+     * @param userId
+     * @param userName
+     * @param userPass
      * @return
      */
-    public JSONResult updateUser(User user){
+    public JSONResult updateUser(Integer userId,String userName,String userPass){
+        User user = userMapper.findUserById(userId);
+        user.setUserName(userName);
+        user.setUserPass(userPass);
+
         int matched = userMapper.updateUser(user);
         if(matched!=0)
             return JSONResult.ok();
