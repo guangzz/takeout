@@ -103,6 +103,9 @@ public class RestaurantServiceTest {
         restaurantService.addPreferential(preferential);
     }
 
+
+
+
     @Test
     public void findRestaurantByIdTest(){
         JSONResult restaurantById = restaurantService.findRestaurantById(2);

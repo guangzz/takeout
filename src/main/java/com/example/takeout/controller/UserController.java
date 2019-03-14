@@ -97,9 +97,9 @@ public class UserController {
         return userService.consumption(userId);
     }
 
-    @GetMapping("/consumptionInfo/{uesrId}")
+    @GetMapping("/consumptionInfo")
     @ApiOperation(value = "查看历史订单")
-    public JSONResult consumptionInfo(@PathVariable("userId") Integer userId){
+    public JSONResult consumptionInfo(Integer userId){
         return userService.consumptionInfo(userId);
     }
 

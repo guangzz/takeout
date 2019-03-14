@@ -22,4 +22,6 @@ public interface RestaurantMapper extends MyBatisBaseDao<Restaurant, Integer> {
     int findRestaurantCount();
 
     Restaurant selectByPrimaryKey(Integer id);
+
+
 }

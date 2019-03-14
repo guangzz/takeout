@@ -128,4 +128,14 @@ public class RestaurantService {
         return JSONResult.ok(restaurantMapper.selectByPrimaryKey(id));
     }
 
+
+    /**
+     * 根据商家id查出该商家下所有优惠商品
+     * @param restaurantId
+     * @return
+     */
+    public JSONResult findRatioProducts(Integer restaurantId){
+        return null;
+    }
+
 }

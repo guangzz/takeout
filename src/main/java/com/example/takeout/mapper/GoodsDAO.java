@@ -39,4 +39,5 @@ public interface GoodsDAO extends MyBatisBaseDao<Goods, Integer> {
     @Select(value = {"SELECT ",SELECT_FIELD, " FROM ", TABLE, "WHERE restaurant_id=#{restaurantID}"})
     List<Goods> findProductByRestaurant(@Param("restaurantID") Integer restaurantID);
 
+
 }
